@@ -1,0 +1,45 @@
+{
+  "name": "naonnon",
+  "version": "0.0.1",
+  "description": "Redis backed load balancer/proxy",
+  "keywords": [
+    "reverse",
+    "proxy",
+    "http",
+    "http-proxy"
+  ],
+  "homepage": "https://github.com/NodeTopia/Naonnon",
+  "bugs": {
+    "url": "https://github.com/NodeTopia/Naonnon/issues",
+    "email": "mangoraft@gmail.com"
+  },
+  "license": "MIT",
+  "main": "./bin/hipache",
+  "bin": {
+    "naonnon": "./bin/naonnon.js"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "commander": "2.2.0",
+    "eventemitter2": "^5.0.1",
+    "http-proxy": "1.17.0",
+    "lru-cache": "4.1.3",
+    "noderedispubsub": "git+https://github.com/NodeTopia/NodeRedisPubsub.git",
+    "raft-logger-redis": "0.2.x",
+    "redis": "2.8.0"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">=8"
+  },
+  "engineStrict": true,
+  "maintainer": [
+    "Tim D <mangoraft@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NodeTopia/Naonnon.git"
+  }
+}

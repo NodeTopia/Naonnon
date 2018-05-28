@@ -1,0 +1,47 @@
+{
+  "redis": {
+    "port": 6000,
+    "host": "127.0.0.1",
+    "auth": "7ccsHwSbHBUqKVOJICthVgI0XJYYNDEN"
+  },
+  "pubsub": {
+    "port": 6000,
+    "host": "127.0.0.1",
+    "auth": "7ccsHwSbHBUqKVOJICthVgI0XJYYNDEN"
+  },
+  "logging": {
+    "web": {
+      "port": 5000,
+      "host": "127.0.0.1"
+    },
+    "udp": {
+      "port": 5001,
+      "host": "127.0.0.1"
+    },
+    "session": "e30a732e-8b09-4bc3-b958-242563004b06"
+  },
+  "metrics": {
+    "port": 8125,
+    "host": "127.0.0.1",
+    "packet": 1432,
+    "flush": 1000
+  },
+  "logSession": "e30a732e-8b09-4bc3-b958-242563004b06",
+  "metricSession": "e30a732e-8b09-4bc3-b958-242563004b06",
+  "port": 9000,
+  "tcpTimeout": 30,
+  "deadBackendOn500": false,
+  "maxSockets": 100,
+  "retryOnError": 0,
+  "httpKeepAlive": false,
+  "workers": 1,
+  "lru": {
+    "size": 100000,
+    "ttl": 10
+  },
+  "https": {
+    "key": "./example/privkey.pem",
+    "cert": "./example/fullchain.pem",
+    "port": 9443
+  }
+}
